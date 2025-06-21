@@ -227,68 +227,68 @@ totalPrice → total amount calculated (e.g., pricePerNight * nights)
 
 
 # 🎨 Frontend Component Structure
-src/
-├── components/
-│   ├   |── Navbar.jsx
-│   │   ├── FilterChips.jsx
-│   │   ├── Hero.jsx
-│   │   └── NavBar.jsx
-|   |   └── PropertyCard.jsx
-|   |   └── SearchBar.jsx
-|   |   └── Amenities.jsx
-|   |   └── Calendar.jsx
-|   |   └── Gallery.jsx
-|   |   └── ListingForm.jsx
-|   |   └── PriceDisplay.jsx
-|   |   └── utils.jsx
-│   ├── contexts/
-│   │   ├── AuthContext.jsx
-│   ├── pages/
-│   │   ├── BookingPage.jsx
-│   │   ├── Dashboard.jsx
-│   │   ├── Home.jsx
-│   │   ├── ListingPage.jsx
-│   │   └── Listings.jsx
-│   ├── bookings/
-│   │   ├── BookingForm.jsx
-│   │   ├── BookingCard.jsx
-│   │   └── Calendar.jsx
-│   └── dashboard/
-│       ├── HostDashboard.jsx
-│       ├── ListingForm.jsx
-│       └── BookingManagement.jsx
-├── pages/
-│   │   ├── BookingPage.jsx
-│   │   ├── Dashboard.jsx
-│   │   ├── Home.jsx
-│   │   ├── ListingPage.jsx
-│   │   ├── login.jsx
-│   │   ├── register.jsx
-│   │   └── Listings.jsx
-└── hooks/
-    └── useListings.js
+## src/
+## ├── components/
+## │   ├   |── Navbar.jsx
+## │   │   ├── FilterChips.jsx
+## │   │   ├── Hero.jsx
+## │   │   └── NavBar.jsx
+## |   |   └── PropertyCard.jsx
+## |   |   └── SearchBar.jsx
+## |   |   └── Amenities.jsx
+## |   |   └── Calendar.jsx
+## |   |   └── Gallery.jsx
+## |   |   └── ListingForm.jsx
+## |   |   └── PriceDisplay.jsx
+## |   |   └── utils.jsx
+## │   ├── contexts/
+## │   │   ├── AuthContext.jsx
+## │   ├── pages/
+## │   │   ├── BookingPage.jsx
+## │   │   ├── Dashboard.jsx
+## │   │   ├── Home.jsx
+## │   │   ├── ListingPage.jsx
+## │   │   └── Listings.jsx
+## │   ├── bookings/
+## │   │   ├── BookingForm.jsx
+## │   │   ├── BookingCard.jsx
+## │   │   └── Calendar.jsx
+## │   └── dashboard/
+## │       ├── HostDashboard.jsx
+## │       ├── ListingForm.jsx
+## │       └── BookingManagement.jsx
+## ├── pages/
+## │   │   ├── BookingPage.jsx
+## │   │   ├── Dashboard.jsx
+## │   │   ├── Home.jsx
+## │   │   ├── ListingPage.jsx
+## │   │   ├── login.jsx
+## │   │   ├── register.jsx
+## │   │   └── Listings.jsx
+## └── hooks/
+##     └── useListings.js
 
 
 # Node.js Backend file strcture
 
-services/
-├── config/
-│   └── db.js
-├── controllers/
-│   ├── authController.js
-│   ├── listingsController.js
-│   └── bookingController.js
-├── middlewares/
-│   ├── Auth.js
-│   └── Validate.js
-├── models/
-│   ├── Booking.js
-│   ├── Listings.js
-│   └── User.js
-├── routes/
-│   └── Home.js
-├── index.js         
-└── package.json     
+## services/
+## ├── config/
+## │   └── db.js
+## ├── controllers/
+## │   ├── authController.js
+## │   ├── listingsController.js
+## │   └── bookingController.js
+## ├── middlewares/
+## │   ├── Auth.js
+## │   └── Validate.js
+## ├── models/
+## │   ├── Booking.js
+## │   ├── Listings.js
+## │   └── User.js
+## ├── routes/
+## │   └── Home.js
+## ├── index.js         
+## └── package.json     
 
     
  
