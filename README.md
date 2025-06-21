@@ -1,4 +1,5 @@
-# StayFinder Development Roadmap & Complete Guide
+# StayFinder Development 
+Deplaoy Link:  https://rococo-pasca-ba8d11.netlify.app/dashboard
 🎯 Project Overview
 StayFinder is a full-stack property rental platform similar to Airbnb, focusing on both short-term and long-term stays.
 
@@ -144,6 +145,7 @@ Show more detailed messages for login and register validation errors
 Adding a protected route that wont allow normal users to create listing
 Profile section with information of the user
 Update requests and logic not added for listings
+Missed styling the guest or host button for register user. Little oversight
 
 
 
